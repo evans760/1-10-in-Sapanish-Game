@@ -11,13 +11,32 @@ var random = Math.floor(Math.random()*10)+1
 
 var words = ["cero", "uno", "dose", "threse", "cuatro", "cinco", "seise", "seiete", "ocho", "nueve", "diez"]
 
-alert(words[random])
+
 
 
 $("#word").html(words[random])
 
 $( ".number" ).click(function() {
-  alert("clicked");
+
+
+  var englishNumber= ($(this).text())
+
+
+
+
+  var spanish = $("#word").html();
+
+  if
+    (spanish == words[englishNumber]) {
+    alert("correct");
+  }
+
+  else{
+    alert("try again");
+  }
+
+
+
 })
 
 
