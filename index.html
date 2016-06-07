@@ -6,27 +6,16 @@
   <title>Numeros Locos</title>
 
 
-  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 <link rel="stylesheet" href="css/style.css">
 
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-<script src="/js/game.js"></script>
-
-<script>function myFunction() {
-    location.reload();
-}
-</script>
-
 </head>
 
-<body>
+
 <body>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -43,7 +32,7 @@
         </button>
 
 
-        <button onclick="myFunction()">Restart Game</button>
+        <button>Restart Game</button>
 
 
       </div><!-- /.navbar-collapse -->
@@ -53,14 +42,17 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-3 col-lg-3 col-xs-8">Player 1</div>
-    <div class="col-md-3 col-lg-3 col-xs-8">Score</div>
-     <div class="col-md-3 col-lg-3 col-xs-8">Player 2</div>
-      <div class="col-md-3 col-lg-3 col-xs-8">Score</div>
+    <div class="col-md-3 col-lg-3 col-xs-8">Player 1
+    <br /><span id="player1" style="color:blue">Score</span></div>
+
+     <div class="col-md-3 col-lg-3 col-xs-8">Player 2
+     <br /><span id="player2" style="color:red">Score</span></div>
+
 </div>
 
 
     <h1 id="word"></h1>
+    <img src="" id="word-image">
 
     <div class="row">
     <div class="col-md-1">&nbsp;</div>
@@ -79,6 +71,9 @@
   </div>
 
 
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="/js/game.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </body>
 </html>
