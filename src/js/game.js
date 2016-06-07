@@ -4,31 +4,49 @@ $(document).ready(function(){
 
 
 
+var score = document.createElement("score")
+var counter=0
 
 
-var random = Math.floor(Math.random()*10)+1
+var random = Math.floor(Math.random()*10)
 
 
-var words = ["cero", "uno", "dose", "threse", "cuatro", "cinco", "seise", "seiete", "ocho", "nueve", "diez"]
+var words =
+[{image:"img/uno.jpg", word:"uno"},
+{image:"img/dos.jpg", word:"dos"},
+{image:"img/tres.jpg", word:"tres"},
+{image:"img/cuatro.jpg", word:"cuatro"},
+{image:"img/cinco.jpg", word:"cinco"},
+{image:"img/seis.jpg", word:"seis"},
+{image:"img/siete.jpg", word:"siete"},
+{image:"img/ocho.jpg", word:"ocho"},
+{image:"img/nueve.jpg", word:"nueve"},
+{image:"img/diez.jpg", word:"diez"}]
 
 
 
 
-$("#word").html(words[random])
+$("#word-image").attr("src", words[random].image)
 
 $( ".number" ).click(function() {
 
 
-  var englishNumber= ($(this).text())
+  var englishNumber= parseInt($(this).text())-1
 
 
 
 
-  var spanish = $("#word").html();
+  var spanish = words[random].word;
+
+  /*var player1 = parseInt(document.getElementById("score").innerHTML);
+    player1++;
+    */
 
   if
-    (spanish == words[englishNumber]) {
-    alert("correct");
+    (spanish == words[englishNumber].word) {
+    counter=counter+1;
+    alert("correct" + counter + '/10');
+
   }
 
   else{
