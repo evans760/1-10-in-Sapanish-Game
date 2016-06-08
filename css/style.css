@@ -1,5 +1,16 @@
+body {
+  background-image: url("");
+}
+
 .row div {
-    border: 1px solid black;
+
+  }
+
+  #resetbtn {
+    background-color: turquoise;
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-top: 2%;
   }
 
 .text-center {
@@ -10,25 +21,52 @@ h1 {
   text-align: center;
   }
 
+#player1 {
+  font-family: 'Pacifico', cursive;
+  color: turquoise;
+}
 
-
+#player2 {
+  font-family: 'Pacifico', cursive;
+  color: blue;
+}
 
 .navbar-brand {
   height: 50px;
-  display: inline-block;
   padding: 10px;
 }
 
 #logo {
-  height: 30px;
+  width: 25rem;
+  height: auto;
+  mix-blend-mode: multiply;
+
 }
 
 #word-image {
-position: center;
-margin-left:25%;
-height: 50%;
-width: 50%;
+margin: 0 auto;
+display: block;
+height: 20rem;
+mix-blend-mode: multiply;
 
+
+}
+
+#number {
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
+  color: purple;
+}
+
+#p1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  padding-top: 3%;
+}
+
+#p2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
 }
 
 
