@@ -1,10 +1,4 @@
-body {
-  background-image: url("");
-}
 
-.row div {
-
-  }
 
   #resetbtn {
     background-color: turquoise;
@@ -26,15 +20,7 @@ h1 {
   color: turquoise;
 }
 
-#player2 {
-  font-family: 'Pacifico', cursive;
-  color: blue;
-}
 
-.navbar-brand {
-  height: 50px;
-  padding: 10px;
-}
 
 #logo {
   width: 25rem;
@@ -52,7 +38,7 @@ mix-blend-mode: multiply;
 
 }
 
-#number {
+.number {
   font-family: 'Pacifico', cursive;
   font-size: 100px;
   color: purple;
@@ -64,9 +50,5 @@ mix-blend-mode: multiply;
   padding-top: 3%;
 }
 
-#p2 {
-  font-family: 'Pacifico', cursive;
-  font-size: 30px;
-}
 
 

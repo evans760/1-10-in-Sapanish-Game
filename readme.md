@@ -1,4 +1,16 @@
-#TEMPLATE JS
+# Learn to coun to 10 in Spanish
+
+A Front-End Game made in javascript.
+##Getting started
+
+A word will appear on the screen and the user clicks the corrisponding number**.
+
+
+
+
+
+
+<!-- #TEMPLATE JS
 
 A Front-End template setup with BrowserSync, ESLint, and CSSLint.
 
@@ -19,3 +31,4 @@ This is a template, so these instructions assume you'll be setting up a new repo
 * `npm start` - start the BrowserSync server
 * `npm run lint:css` - lint CSS
 * `npm run lint:js` - lint JS
+ -->

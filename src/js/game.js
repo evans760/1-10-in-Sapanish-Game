@@ -51,14 +51,10 @@ $( ".number" ).click(function() {
 
 
 
-  /*var player1 = parseInt(document.getElementById("score").innerHTML);
-    player1++;
-    */
-
   if (englishNumber == words[random].englishNumb) {
     counter=counter+1;
     $("#player1").text(counter);
-    //run function called gameLogic
+
     words.splice(random, 1)
 
     if (words.length <= 0){
@@ -77,12 +73,5 @@ $( ".number" ).click(function() {
       text: "uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez",
       imageUrl: "img/count.jpg"});
   }
-
-
-
 })
-
-
-
-
 })
